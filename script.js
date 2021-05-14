@@ -22,4 +22,5 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
-
+let numberOfFilms = 'Сколько фильмов уже посмотрели?';
+console.log(numberOfFilms);
