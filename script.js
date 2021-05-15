@@ -22,5 +22,18 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
-let numberOfFilms = 'Сколько фильмов уже посмотрели?';
-console.log(numberOfFilms);
+const numberOfFilms = 'Сколько фильмов уже посмотрели?';
++prompt(numberOfFilms, "10");
+
+const personalMovieDB = {
+    count:numberOfFilms,
+    movies: {},
+    actors: {},
+    geners: [],
+    privat: false
+};
+
+const a = prompt('Один из последних просмотренных фильмов?', ''),
+      b = prompt('На сколько оцените его?', ''),
+      c = prompt('Один из последних просмотренных фильмов?', ''),
+      d = prompt('На сколько оцените его?', '');
